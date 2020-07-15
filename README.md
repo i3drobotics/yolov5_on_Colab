@@ -19,11 +19,30 @@ Run the first three cells to allow for the mounting of the Google drive, setting
 # Step 4- Download config files
 Run the fourth cell to download the clothing.yaml file and the yolov5x.yaml config files. 
 Download the “clothing.yaml” file from the “yolov5/data/” folder
+
+# Step 5- Edit config files
 Edit yaml file
 Change the “train” and “val” paths to desired names.
 Change “names” to your desired classes.
 An example yaml file for tools should look like:
 ![alt text](https://github.com/i3drobotics/yolov5_on_Colab/blob/master/example2.png?raw=true)
+
+Save the yaml file with the desired name and upload it back to “data” folder on colabs.
+
+Download the model config file you wish to use from the models directory. The following shows an example of “yolov5x.yaml” file. Edit "nc" in line 2 to correlate with the number of classes in the first config file. 
+Upload this file back to the models directory on Google Colab.
+
+# Step 6- Upload images
+Create two directories- one called "images" and one called "labels".
+Create two directories called "train" and "val" in both the "images" and "labels" directories.
+Place the training and validation images and training and validation labels in the corresponding directories. 
+
+Upload these to the ml_yolo folder. 
+Once this is completed, the folder structure should look like the following:
+
+
+
+
 
 
 
