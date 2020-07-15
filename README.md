@@ -49,6 +49,7 @@ Once this is completed, the folder structure should look like the following:
 run the “Run the training” cell. It is reccommended that this is initially run for 30 epochs to ensure that everything is working correctly. This should increase to 1000's for a more accurate model.
 
 # Step 8- Detect
+Once the taining is finished, move the best_yolo weights model from the "run/exp...../ weights" folder to the "weights" folder and rename the file "yolov5x_tools.pt"
 Upload images to the yolov5/inference/images folder.
 run the "Run detection" cell. The output will display the detected objects. THe images with detection will also be displayed in the yolov5/inference/output folder
 
