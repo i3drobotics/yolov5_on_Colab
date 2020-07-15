@@ -11,6 +11,7 @@ Load images and the VOC XML to the images folder.
 
 Open "convert_voc_to_yolo.py" and change the classes in line 9 to those you are using.
 
+Running the "convert_voc_to_yolo.py" script will produce a folder in the "images" directory with a folder called "yolo" consisting of files in the yolo format.
 # Step 2- Open the Colab notebook
 Go to https://colab.research.google.com/drive/1Ihs30PoTJJSfVXH7hup0Jd9eOIvv0xfz?usp=sharing
 
