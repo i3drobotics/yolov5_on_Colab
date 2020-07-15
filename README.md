@@ -16,13 +16,14 @@ This will open the Colab notebook template. Save a copy of the notebook in your 
 # Step 3- Mount your Google drive, set up the environment and clone the YOLOv5 repository
 Run the first three cells to allow for the mounting of the Google drive, setting up the environment and cloning the YOLOv5 repository
 
-#Step 4- Download config files
+# Step 4- Download config files
 Run the fourth cell to download the clothing.yaml file and the yolov5x.yaml config files. 
 Download the “clothing.yaml” file from the “yolov5/data/” folder
 Edit yaml file
 Change the “train” and “val” paths to desired names.
 Change “names” to your desired classes.
 An example yaml file for tools should look like:
+![alt text](https://github.com/i3drobotics/yolov5_on_Colab/blob/[branch]/example.png?raw=true)
 
 
 
