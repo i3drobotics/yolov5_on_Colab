@@ -23,7 +23,8 @@ Edit yaml file
 Change the “train” and “val” paths to desired names.
 Change “names” to your desired classes.
 An example yaml file for tools should look like:
-![alt text](https://github.com/i3drobotics/yolov5_on_Colab/blob/[branch]/example.png?raw=true)
+![alt text](https://github.com/i3drobotics/yolov5_on_Colab/blob/master/example.png?raw=true)
+
 
 
 
