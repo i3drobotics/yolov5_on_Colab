@@ -4,8 +4,11 @@ Instructions for running Yolov5 on a dataset on Google Colab.
 
 # Step 1- Only if you need o convert from VOC XML to yolo format
 Go to desired directory and type:
+
 git clone https://github.com/i3drobotics/Convert-VOC-to-YOLO.git
+
 Load images and the VOC XML to the images folder.
+
 Open "convert_voc_to_yolo.py" and change the classes in line 9 to those you are using.
 
 # Step 2- Open the Colab notebook
