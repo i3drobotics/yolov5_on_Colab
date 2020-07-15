@@ -39,6 +39,14 @@ Place the training and validation images and training and validation labels in t
 
 Upload these to the ml_yolo folder. 
 Once this is completed, the folder structure should look like the following:
+![alt text](https://github.com/i3drobotics/yolov5_on_Colab/blob/master/example3.png?raw=true)
+
+# Step 7- Train the model
+run the “Run the training” cell. It is reccommended that this is initially run for 30 epochs to ensure that everything is working correctly. This should increase to 1000's for a more accurate model.
+
+# Step 8- Detect
+Upload images to the yolov5/inference/images folder.
+run the "Run detection" cell. The output will display the detected objects. THe images with detection will also be displayed in the yolov5/inference/output folder
 
 
 
